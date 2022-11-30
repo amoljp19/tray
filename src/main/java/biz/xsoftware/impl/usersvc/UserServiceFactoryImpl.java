@@ -15,7 +15,7 @@ public class UserServiceFactoryImpl extends UserServiceFactory {
 
 	@Override
 	public UserService createService() {
-		return null;
+		return new UserService1();
 	}
 
 }
